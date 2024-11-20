@@ -1,0 +1,121 @@
+/* Divider for the position (title) */
+.position-divider h2 {
+    font-size: 2em;
+    margin: 40px 0 20px; /* Add space above and below the divider */
+    text-align: left;
+    color: #333;
+    border-bottom: 2px solid #ccc; /* Create a dividing line */
+    padding-bottom: 10px;
+}
+
+/* Card group for each position */
+.card-position-group {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual card styling (same as before) */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.candidate-photo {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.candidate-name {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.candidate-party {
+    margin: 8px 0;
+}
+
+.vote-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vote-btn:hover {
+    background-color: #218838;
+}
+
+.side-menu {
+    width: 15%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+.side-menu h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    margin: 10px 0;
+}
+
+.side-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.side-menu ul li a:hover {
+    background-color: #575757;
+}
+
+.side-menu ul li a:focus {
+    outline: 2px solid #fff; /* Focus style for accessibility */
+}
+
+.main-content {
+    margin-left: 18%; /* Adjusted to ensure no overlap */
+    padding: 20px;
+    width: 78%; /* Adjusted to ensure no overlap */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    background-color: #f8d7da; /* Light red background for error messages */
+    color: #721c24; /* Dark red text color */
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

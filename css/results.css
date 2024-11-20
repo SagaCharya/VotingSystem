@@ -1,0 +1,16 @@
+#charts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.chart-wrapper {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+canvas {
+    width: 100% !important; /* Ensure the canvas scales to the container */
+    height: 100% !important;
+}
